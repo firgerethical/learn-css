@@ -1,0 +1,28 @@
+/* p {
+    color: red;
+    font-size: 1.5em;
+} */
+
+/* Dando la propiedad de la etiqueta padre */
+a {
+    color: inherit;
+}
+
+/*  Etiqueta -> 1
+    Clases y pseudoclases -> 10
+    Id -> 100
+    Estilos en línea -> 1000
+    !important -> Gana a todo
+ */
+
+#parrafo {
+    color: red;
+}
+
+.parrafo {
+    color: purple !important;
+}
+
+.parrafo-2s {
+    color: green;
+}
