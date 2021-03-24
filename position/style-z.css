@@ -1,0 +1,53 @@
+.box  {
+    width: 75px;
+    height: 75px;
+    font-size: 1.5em;
+    line-height: 75px;
+    text-align: center;
+    position: relative;
+}
+
+.box1 {
+    background: chartreuse;
+    z-index: 30;
+}
+
+.box2 {
+    background: blue;
+    top: -38px;
+    left: 30px;
+    z-index: 20;
+}
+
+.box3 {
+    background: red;
+    top: -75px;
+    left: 75px;
+    z-index: 10;
+}
+
+.box4 {
+    background: lightcoral;
+    top: -150px;
+    left: 50px;
+    z-index: 15;
+}
+
+.padre {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+    top: 30px;
+    z-index: 10;
+}
+
+.hijo {
+    width: 50px;
+    height: 50px;
+    background: cadetblue;
+    position: relative;
+    top: -30px;
+    left: 150px;
+    z-index: -1;
+}
