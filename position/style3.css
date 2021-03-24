@@ -1,0 +1,17 @@
+body {
+    padding-top: 6em;
+}
+
+.menu {
+    background: yellow;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title {
+    margin: 0;
+}
