@@ -1,0 +1,36 @@
+/* /* :root {
+}
+.text {
+  padding: 0.5em;
+  background: green;
+}
+.text:empty {
+  all: unset;
+} */
+/* .container .text:first-child {
+  background: violet;
+}
+.text:last-child {
+  background: teal;
+} */
+
+/* .text:nth-child(odd) {
+  background: thistle;
+} */
+/* .text:nth-child(even) {
+  background: thistle;
+} */
+
+/* n primero vale 0, después 1,déspues 2 y por ultimo 3*/
+
+/* .text:nth-child(3n) {
+  background: thistle;
+} */
+
+/* .text:nth-child(3n + 1) {
+  background: tomato;
+} */
+
+.text:nth-last-child(even) {
+  background: tomato;
+}

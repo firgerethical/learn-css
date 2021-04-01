@@ -1,0 +1,31 @@
+.input,
+.label {
+  display: block;
+}
+.input:enabled {
+  background: rebeccapurple;
+}
+.input:disabled {
+  background: yellow;
+}
+.input:checked + label {
+  font-size: 2em;
+}
+.input:in-range {
+  background: green;
+}
+.input:out-of-range {
+  background: blue;
+}
+.input:optional {
+  background: plum;
+}
+.input:required {
+  background: red;
+}
+.input:valid {
+  background: hotpink;
+}
+.input:invalid {
+  background: red;
+}
