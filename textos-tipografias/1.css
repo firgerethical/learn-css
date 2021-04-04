@@ -1,0 +1,25 @@
+/*
+.title {
+  text-transform: capitalize;
+}
+.text {
+  text-align: justify;
+}
+.link {
+  text-decoration: none;
+}
+ */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rebeccapurple;
+}
+
+.box_item {
+  text-align: center;
+  line-height: 100px;
+}
+.text {
+  letter-spacing: 1px;
+}

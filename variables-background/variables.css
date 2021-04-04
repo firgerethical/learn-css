@@ -1,0 +1,23 @@
+:root {
+  --color: purple;
+  --border: 2px solid green;
+}
+
+.text {
+  color: var(--color);
+}
+
+.article {
+  --color: green;
+}
+
+.check:checked + .box {
+  --color: red;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--color);
+  border: var(--border);
+}
